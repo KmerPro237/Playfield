@@ -1,0 +1,65 @@
+\documentclass[10pt,conference,a4paper]{IEEEtran} % ,compsocconf
+% Add the compsocconf option for Computer Society conferences.
+\usepackage[utf8]{inputenc} 
+\usepackage{textcomp}
+%%**************************************************
+%% WICHTIG: Je nach Sprache des Textes die 
+%% folgende Zeile anpassen
+\usepackage[english]{babel} % ngerman
+%%**************************************************
+\usepackage{xspace}
+\usepackage[nocompress]{cite}
+\usepackage[bottom]{footmisc}
+\usepackage{booktabs}
+\usepackage[pdftex]{graphicx}
+%\usepackage[caption=false,font=footnotesize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{stfloats}
+\usepackage{url}
+\urlstyle{tt}
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+	% paper title
+	\title{Your Seminar Paper Title/Titel der Seminararbeit}
+
+	% author names and affiliations
+	\author{%
+		\IEEEauthorblockN{Your Name/Ihr Name (Matrikelnummer auf einem separaten Blatt abgeben)}%
+		\IEEEauthorblockA{%
+												htw saar -- Hochschule für Technik und Wirtschaft des Saarlandes \\ %
+												Seminar ``Angewandte Informatik/Computer Science and Society'' (je nach Seminar anpassen)\\% 
+												\{Winter,Sommer\}semester 20xx %
+											 	}%
+	}
+
+	% make the title area
+	\maketitle
+
+	% page style
+	\pagestyle{plain}
+	
+	% make the title area
+	\maketitle
+
+	% abstract
+	\begin{abstract}
+		Your abstract goes here. Please consider Kent Beck's recommendations for writing an abstract.
+	\end{abstract}
+
+
+	% CONT
+	\input{seminar_content}
+			
+			
+	% BIB
+	\bibliographystyle{IEEEtran}
+	% argument is your BibTeX string definitions and bibliography database(s)
+	\bibliography{IEEEexample}
+
+% that's all folks
+\end{document}
+
