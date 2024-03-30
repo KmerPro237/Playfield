@@ -1,6 +1,6 @@
 # Java Quick Start Project
 
-This repository contains code samples for the Quick Start blog post series.
+This repository contains code samples for the Quick Start blog post series...
 
 You can read more about the Quick Start series on the [MongoDB Developer Hub](https://www.mongodb.com/developer/).
 
